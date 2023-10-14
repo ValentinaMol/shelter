@@ -156,8 +156,73 @@ h3 {
   background: #f6f6f6;
 }
 
+.pets h3 {
+  max-width: 400px;
+  margin: 0 auto 0 auto;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.pets .slider {
+  margin-top: 60px;
+}
+
+.pets .slider .cards {
+  display: flex;
+  width: 207px;
+  height: 435px;
+  margin-bottom: 60px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+  background: #fafafa;
+}
+
+.pets .slider .cards .cards_btn .btn_card {
+  color: #292929;
+  font-family: Georgia;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 1.02px;
+  border: solid 2px #f1cdb3;
+  background: #fafafa;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 15px 45px 15px 45px;
+}
+
+.pets .slider .cards .card_descr {
+  color: #545454;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.pets .btn_primary {
+  color: #292929;
+  font-family: Georgia;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 1.02px;
+  background-color: rgba(241, 205, 179, 1);
+  padding: 15px 45px;
+  border-radius: 100px;
+  border: none;
+  margin: 60px auto;
+  display: block;
+}
+
 .help .container h3 {
-  width: 308px;
+  max-width: 308px;
   margin: 80px auto 0 auto;
   text-align: center;
 }
