@@ -49,7 +49,7 @@ h3 {
   justify-content: space-between;
   gap: 573px;
   height: 60px;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .header_content .logo p {
@@ -167,6 +167,38 @@ h3 {
   margin-top: 60px;
 }
 
+.slick-slide {
+  margin: 0 90px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-track {
+  margin-bottom: 0px;
+}
+
+.slick-next {
+  background-image: url(../img/icons/Arrow\ right.png) no-repeat;
+  border-radius: 100px;
+  border: 2px solid #f1cdb3;
+  padding: 23px 19px;
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 95%;
+}
+
+.slick-prev {
+  background-image: url(../img/icons/Arrow\ right.png) no-repeat;
+  border-radius: 100px;
+  border: 2px solid #f1cdb3;
+  padding: 23px 19px;
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 0%;
+}
+
 .pets .slider .cards {
   display: flex;
   width: 207px;
@@ -176,6 +208,10 @@ h3 {
   align-items: center;
   border-radius: 9px;
   background: #fafafa;
+}
+
+.pets .slider .cards .cards_btn {
+  text-align: center;
 }
 
 .pets .slider .cards .cards_btn .btn_card {
@@ -203,6 +239,8 @@ h3 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.2px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .pets .btn_primary {
@@ -217,7 +255,7 @@ h3 {
   padding: 15px 45px;
   border-radius: 100px;
   border: none;
-  margin: 60px auto;
+  margin: 60px auto 0px auto;
   display: block;
 }
 
